@@ -1,0 +1,9 @@
+.DS_Store
+*.nav 
+*.toc
+*.aux
+*.out
+*.snm
+*.log
+*.gz
+reddit_test_app/node_modules
