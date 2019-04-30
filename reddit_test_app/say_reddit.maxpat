@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 501.0, 260.0, 794.0, 509.0 ],
+		"rect" : [ 335.0, 208.0, 794.0, 509.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -86,15 +86,14 @@
 					"fontname" : "Avenir Book",
 					"fontsize" : 48.0,
 					"id" : "obj-32",
-					"linecount" : 7,
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 128.0, 337.0, 372.0, 465.0 ],
+					"patching_rect" : [ 128.0, 337.0, 372.0, 138.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 3,
-					"presentation_rect" : [ 8.0, 7.0, 774.0, 203.0 ],
-					"text" : "I’M WORTHLESS AND ONLY MATTERED WHEN I GAVE BIRTH TO MY SON",
+					"presentation_rect" : [ 8.0, 7.0, 774.0, 72.0 ],
+					"text" : "I DON'T KNOW WHAT TO DO",
 					"textcolor" : [ 0.756862759590149, 0.756862759590149, 0.756862759590149, 1.0 ],
 					"textjustification" : 1
 				}
