@@ -11,22 +11,19 @@ institute:
 
 # Das Internet
 
-## Das Internet als Raum
+# Das Internet als Raum
 
-## Das Internet als Medium
+# Das Internet als Medium
 
-## Das Internet als Quelle
+# Das Internet als Quelle
 
-# Node.js
+# Chrome V8 und Node
 
-## Chrome V8 und Node
-
-## NPM
+# NPM
 
 # Javascript
 
 ## Basic Syntax - Variablen
-
 
 ### Arduino / C
 
@@ -127,4 +124,4 @@ bot.on('message', printMessage);
 
 ```
 
-## Node and Max
+# Node and Max
