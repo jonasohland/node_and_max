@@ -1,5 +1,5 @@
 .DS_Store
-*.nav 
+*.nav
 *.toc
 *.aux
 *.out
@@ -7,3 +7,4 @@
 *.log
 *.gz
 reddit_test_app/node_modules
+pling/node_modules

@@ -5,4 +5,6 @@ const requester = new Snoowrap(require('./creds.json'));
 
 
 requester.getSubreddit('r/depression_help')
-    .getRandomSubmission().then(submission => Max.outlet(submission.title.toUpperCase()));
+    .getRandomSubmission()
+    .then(submission => 
+        Max.outlet(submission.title.toUpperCase()));
