@@ -8,4 +8,5 @@
 *.gz
 reddit_test_app/node_modules
 pling/node_modules
+twitter_mood/node_modules
 creds.json
