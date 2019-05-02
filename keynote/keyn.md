@@ -11,12 +11,6 @@ institute:
 
 # Das Internet
 
-# Das Internet als Raum
-
-# Das Internet als Medium
-
-# Das Internet als Quelle
-
 # Chrome V8 und Node
 
 # NPM

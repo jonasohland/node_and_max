@@ -3,7 +3,6 @@ const Max = require('max-api');
 
 const requester = new Snoowrap(require('./creds.json'));
 
-
 requester.getSubreddit('r/fifthworldproblems')
     .getRandomSubmission()
     .then(submission =>
