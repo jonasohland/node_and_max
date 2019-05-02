@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 5,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 773.0, 293.0, 858.0, 648.0 ],
+		"rect" : [ 478.0, 153.0, 858.0, 648.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -191,7 +191,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 746.0, 326.0, 29.5, 20.0 ],
-					"text" : "/ 8."
+					"text" : "/ 5."
 				}
 
 			}
@@ -323,15 +323,15 @@
 					"fontname" : "Avenir Book",
 					"fontsize" : 48.0,
 					"id" : "obj-32",
-					"linecount" : 5,
+					"linecount" : 16,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 128.0, 277.0, 381.0, 334.0 ],
+					"patching_rect" : [ 128.0, 277.0, 381.0, 1056.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 8.0, 7.0, 774.0, 138.0 ],
-					"text" : "⋔⊬ ⏃⎍⏁⍜⋔⏃⏁⟟☊ ⌰⏃⋏☌⎍⏃☌⟒ ☊⍜⋏⎐⟒⍀⏁⟒⍀ ⟟⌇ ⏚⍀⍜☍⟒⋏.",
+					"presentation_linecount" : 7,
+					"presentation_rect" : [ 8.0, 7.0, 774.0, 465.0 ],
+					"text" : "I CREATED AN EXACT COPY OF THE LOWER DIMENSIONAL PLANET KNOWN AS EARTH AND THE GREAT OLD ONES HAVE TAKEN OVER I NEED AN EXTERMINATOR ANY RECOMENDATIONS?",
 					"textcolor" : [ 0.756862759590149, 0.756862759590149, 0.756862759590149, 1.0 ],
 					"textjustification" : 1
 				}
@@ -384,6 +384,8 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 0,
 						"defer" : 0,
+						"node" : "",
+						"npm" : "",
 						"watch" : 0
 					}
 ,
@@ -644,21 +646,21 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "say.maxpat",
-				"bootpath" : "~/Desktop/node_and_max/reddit_test_app",
+				"bootpath" : "~/h_da/sem6/interaktiv_4/node_and_max/reddit_test_app",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "say_names.txt",
-				"bootpath" : "~/Desktop/node_and_max/reddit_test_app",
+				"bootpath" : "~/h_da/sem6/interaktiv_4/node_and_max/reddit_test_app",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "index.js",
-				"bootpath" : "~/Desktop/node_and_max/reddit_test_app",
+				"bootpath" : "~/h_da/sem6/interaktiv_4/node_and_max/reddit_test_app",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1

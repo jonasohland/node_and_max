@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 5,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 589.0, 233.0, 487.0, 913.0 ],
+		"rect" : [ 527.0, 151.0, 466.0, 918.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -97,6 +97,8 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 0,
 						"defer" : 0,
+						"node" : "",
+						"npm" : "",
 						"watch" : 0
 					}
 ,
@@ -238,12 +240,12 @@
 					"patching_rect" : [ 103.5, 671.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 6.0,
 							"parameter_shortname" : "mc.live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
-							"parameter_longname" : "mc.live.gain~"
+							"parameter_longname" : "mc.live.gain~",
+							"parameter_mmax" : 6.0
 						}
 
 					}
@@ -593,21 +595,21 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "midiread.maxpat",
-				"bootpath" : "~/Desktop/node_and_max/pling",
+				"bootpath" : "~/h_da/sem6/interaktiv_4/node_and_max/pling",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pling_poly.maxpat",
-				"bootpath" : "~/Desktop/node_and_max/pling",
+				"bootpath" : "~/h_da/sem6/interaktiv_4/node_and_max/pling",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "telegramnotes.js",
-				"bootpath" : "~/Desktop/node_and_max/pling",
+				"bootpath" : "~/h_da/sem6/interaktiv_4/node_and_max/pling",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1

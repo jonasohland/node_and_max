@@ -4,7 +4,7 @@ const Max = require('max-api');
 const requester = new Snoowrap(require('./creds.json'));
 
 
-requester.getSubreddit('r/depression_help')
+requester.getSubreddit('r/fifthworldproblems')
     .getRandomSubmission()
-    .then(submission => 
-        Max.outlet(submission.title.toUpperCase()));
+    .then(submission =>
+        Max.outlet(submission[Math.floor(Math.random() * submission.length)].title.toUpperCase()));

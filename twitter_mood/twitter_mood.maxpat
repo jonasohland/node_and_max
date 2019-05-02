@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 5,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 804.0, 512.0, 407.0, 679.0 ],
+		"rect" : [ 856.0, 116.0, 431.0, 679.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,13 +39,97 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-52",
-					"maxclass" : "button",
+					"id" : "obj-6",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 40.0, 147.0, 29.5, 22.0 ],
+					"text" : "0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 12.0, 102.0, 50.0, 22.0 ],
+					"text" : "0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 141.0, 332.0, 166.0, 22.0 ],
+					"text" : "poly~ twitter_mood_player 10"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 291.0, 570.0, 110.0, 22.0 ],
+					"text" : "scale~ 0. 1. 0. 1. 2."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 7.0, 147.0, 29.5, 22.0 ],
+					"text" : "1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "led",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 107.0, 146.0, 24.0, 24.0 ]
+					"patching_rect" : [ 167.0, 170.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "int", "bang" ],
+					"patching_rect" : [ 78.0, 141.0, 108.0, 22.0 ],
+					"text" : "t i 127 b"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 224.0, 38.0, 133.0, 22.0 ],
+					"text" : "script npm install twitter"
 				}
 
 			}
@@ -84,6 +168,8 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 0,
 						"defer" : 0,
+						"node" : "",
+						"npm" : "install",
 						"watch" : 0
 					}
 ,
@@ -99,7 +185,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 228.0, 178.0, 24.0, 24.0 ]
+					"patching_rect" : [ 228.0, 192.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -110,7 +196,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 228.0, 227.0, 69.0, 22.0 ],
+					"patching_rect" : [ 228.0, 241.0, 69.0, 22.0 ],
 					"text" : "qmetro 200"
 				}
 
@@ -122,8 +208,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 36.0, 354.0, 124.0, 22.0 ],
-					"text" : "0 0 0 0 0 0 0 0 0 0"
+					"patching_rect" : [ 36.0, 368.0, 124.0, 22.0 ],
+					"text" : "1 1 1 1 1 1 1 1 1 1"
 				}
 
 			}
@@ -134,20 +220,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 228.0, 267.0, 67.0, 22.0 ],
+					"patching_rect" : [ 228.0, 281.0, 67.0, 22.0 ],
 					"text" : "busymap 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-14",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 141.0, 318.0, 166.0, 22.0 ],
-					"text" : "poly~ twitter_mood_player 10"
 				}
 
 			}
@@ -157,7 +231,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 78.0, 607.0, 54.0, 22.0 ],
+					"patching_rect" : [ 78.0, 619.0, 54.0, 22.0 ],
 					"text" : "mc.dac~"
 				}
 
@@ -171,15 +245,15 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "multichannelsignal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 78.0, 443.0, 48.0, 136.0 ],
+					"patching_rect" : [ 78.0, 455.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "mc.live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "mc.live.gain~",
-							"parameter_mmax" : 6.0,
-							"parameter_shortname" : "mc.live.gain~"
+							"parameter_mmax" : 6.0
 						}
 
 					}
@@ -195,7 +269,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 78.0, 397.0, 235.0, 22.0 ],
+					"patching_rect" : [ 78.0, 420.0, 235.0, 22.0 ],
 					"text" : "mc.receive~ twitter_mood_player_output 4"
 				}
 
@@ -207,7 +281,7 @@
 					"numinlets" : 7,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "" ],
-					"patching_rect" : [ 78.0, 269.0, 82.0, 22.0 ],
+					"patching_rect" : [ 78.0, 283.0, 82.0, 22.0 ],
 					"text" : "midiformat"
 				}
 
@@ -219,7 +293,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 78.0, 231.0, 54.0, 22.0 ],
+					"patching_rect" : [ 78.0, 245.0, 54.0, 22.0 ],
 					"text" : "pack 0 0"
 				}
 
@@ -231,13 +305,35 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 78.0, 189.0, 108.0, 22.0 ],
+					"patching_rect" : [ 78.0, 203.0, 108.0, 22.0 ],
 					"text" : "makenote 127 100"
 				}
 
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 1 ],
+					"midpoints" : [ 132.0, 181.0, 132.0, 181.0 ],
+					"source" : [ "obj-1", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-1", 2 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-39", 1 ],
 					"source" : [ "obj-14", 0 ]
@@ -255,6 +351,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
 					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-43", 0 ],
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
@@ -309,16 +412,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
-					"order" : 1,
+					"destination" : [ "obj-1", 0 ],
+					"order" : 0,
 					"source" : [ "obj-43", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-52", 0 ],
-					"order" : 0,
+					"destination" : [ "obj-12", 1 ],
+					"order" : 1,
 					"source" : [ "obj-43", 0 ]
 				}
 
@@ -337,6 +440,20 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
  ],
 		"parameters" : 		{
 			"obj-33" : [ "mc.live.gain~", "mc.live.gain~", 0 ],
@@ -347,17 +464,17 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "twitter_mood_player.maxpat",
-				"bootpath" : "~/Desktop/node_and_max/twitter_mood",
+				"name" : "twitter_mood.js",
+				"bootpath" : "~/h_da/sem6/interaktiv_4/node_and_max/twitter_mood",
 				"patcherrelativepath" : ".",
-				"type" : "JSON",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "twitter_mood.js",
-				"bootpath" : "~/Desktop/node_and_max/twitter_mood",
+				"name" : "twitter_mood_player.maxpat",
+				"bootpath" : "~/h_da/sem6/interaktiv_4/node_and_max/twitter_mood",
 				"patcherrelativepath" : ".",
-				"type" : "TEXT",
+				"type" : "JSON",
 				"implicit" : 1
 			}
  ],
